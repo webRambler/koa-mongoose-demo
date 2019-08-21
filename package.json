@@ -1,0 +1,36 @@
+{
+  "name": "koa-mongoose-demo",
+  "version": "1.0.0",
+  "description": "使用koa框架+mongoose搭建web应用",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV node src/app",
+    "dev": "nodemon src/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webrambler/koa-mongoose-demo.git"
+  },
+  "keywords": [
+    "koa",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "webRambler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webrambler/koa-mongoose-demo/issues"
+  },
+  "homepage": "https://github.com/Webrambler/koa-mongoose-demo#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-json-error": "^3.1.2",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.6.10"
+  }
+}
