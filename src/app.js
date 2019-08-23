@@ -24,12 +24,12 @@ app.use(KoaError({
 
 app.use(async (ctx) => {
   if (ctx.url === '/') {
-    ctx.body = 'hello world!'
+    ctx.body = '<h2>hello world!</h2>'
   }
 })
 
 app.use(parameter(app))
 
 app.listen(3005, () => {
-  console.log('服务已启动，监听端口号是3005');
+  console.log('app has started at port 3005');
 })
